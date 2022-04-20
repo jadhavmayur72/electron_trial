@@ -13,7 +13,7 @@ export const Counter = () => {
     <>
     <div>
      
-       <button onClick={()=>dispatcher(incNumber())} >+</button>   <h1>{changeTheState}</h1> <span> <button onClick={()=>dispatcher(decNumber())}>-</button></span>
+       <button onClick={()=>dispatcher(incNumber(5))} >+</button>   <h1>{changeTheState}</h1> <span> <button onClick={()=>dispatcher(decNumber(2))}>-</button></span>
     </div>
     </>
   )

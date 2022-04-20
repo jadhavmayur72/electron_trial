@@ -21,7 +21,7 @@ export const changeNumber=(state=inititalState,action)=>{
             return;
         }
         else{
-            return state-1;
+            return state-action.payload;
         };
      
         default:return state

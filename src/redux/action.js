@@ -8,9 +8,10 @@ export const incNumber=(num)=>{
 }
 
 
-export const decNumber=()=>{
+export const decNumber=(num2)=>{
     return{
-        type:"Decrement"
+        type:"Decrement",
+        payload:num2
     }
 }
 
