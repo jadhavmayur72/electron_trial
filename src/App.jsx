@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import {Counter} from "./component/couter";
-import { Checking } from './component/scheduler';
-
+import {Counter} from "./component/couter"
+import {ShowtheCount} from "./component/showtheCount"
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
-     <Checking/>
+      <h1>Hello Redux</h1>
+    <Counter/>
+    <ShowtheCount/>
     </div>
   );
 }
