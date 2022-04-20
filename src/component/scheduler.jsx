@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 export const Checking=()=>{
-    const [add,setAdd]=useState([])
+    // const [add,setAdd]=useState([])
     const [update, setUpdate]=useState("")
     const[statu,setStatu]=useState("")
     const[location,setLocation]=useState("")
